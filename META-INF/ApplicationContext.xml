@@ -21,4 +21,8 @@
       <property name="lastname" value="johnny"></property>
       <property name="email" value="johnny.depp@gmail.com"></property>
     </bean>
+                                                          
+    <bean id="empdao" class="java.spring.ioc.EmployeDAOImp">
+    	<property name="empl" ref="empl"></property>
+    </bean>
 </beans>
