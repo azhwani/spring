@@ -1,4 +1,4 @@
-package com.spring.ioc;
+package java.spring.ioc;
 
 public interface EmployeDAO {
 	
