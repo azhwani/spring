@@ -1,9 +1,9 @@
-package com.spring.ioc;
+package java.spring.ioc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.spring.ioc.Employe;
+import java.spring.ioc.Employe;
 
 @Component
 public class EmployeDAOImp implements EmployeDAO {
