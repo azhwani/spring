@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.spring.ioc.Employe;
 
-@Component
+@Component   //@Repository
 public class EmployeDAOImp implements EmployeDAO {
 
 	@Autowired
